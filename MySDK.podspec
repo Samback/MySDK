@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://drive.google.com/file/d/12OkyClEWb7v4VseVkQorVQz_zm2Engl_/view?usp=sharing' }
+    s.source            = { :http => 'https://github.com/Samback/MySDK/blob/master/MySDK.zip' }
 
     s.ios.deployment_target = '12.0'
     s.ios.vendored_frameworks = 'MySDK.framework'
