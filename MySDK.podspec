@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/Release/MySDK.zip' }
 
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'MySDK.framework'
 end  
