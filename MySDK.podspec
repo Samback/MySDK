@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage          = 'http://example.com/'
 
     s.author            = { 'Name' => 'samback@ukr.com' }
-    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
+    s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE' }
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/Release/MySDK.zip' }
