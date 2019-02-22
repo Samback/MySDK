@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage          = 'https://jetbeep.com'
 
     s.author            = { 'Name' => 'samback@ukr.com' }
-    s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE' }
+    s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE.txt' }
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/JetBeepFramework.zip' }
