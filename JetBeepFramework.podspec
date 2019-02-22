@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
 	
-	s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/JetBeepFramework.zip', :tag => 1.0.0 }
+	s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/JetBeepFramework.zip', :tag => '1.0.1' }
 	s.dependency 'PromisesSwift', '~> 1.2.4'
 	s.dependency 'CryptoSwift', '~> 0.7.2'	
 	s.dependency 'SQLite.swift', '~> 0.11.5'
