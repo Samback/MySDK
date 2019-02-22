@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/JetBeepFramework.zip' }
+	s.dependency 'PromisesSwift', '~> 1.2.4'
+	s.dependency 'CryptoSwift', '~> 0.7.2'	
+	s.dependency 'SQLite.swift', '~> 0.11.5'
 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'JetBeepFramework.framework'
