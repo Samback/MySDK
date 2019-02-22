@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/Release/JetBeepFramework.zip' }
+    s.source            = { :http => 'https://github.com/Samback/MySDK/raw/master/JetBeepFramework.zip' }
 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'JetBeepFramework.framework'
